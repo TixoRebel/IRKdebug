@@ -2,7 +2,7 @@
 #include <kddockwidgets/DockWidget.h>
 #include <kddockwidgets/Config.h>
 
-#include <oclero/qlementine.hpp>
+// #include <oclero/qlementine.hpp>
 
 #include <QStyleFactory>
 #include <QApplication>

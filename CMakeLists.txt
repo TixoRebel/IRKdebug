@@ -5,7 +5,7 @@ set(CMAKE_AUTORCC ON)
 
 find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets Svg Network)
 find_package(KDDockWidgets-qt6 REQUIRED)
-find_package(qlementine REQUIRED)
+# find_package(qlementine REQUIRED)
 
 qt_standard_project_setup()
 
@@ -26,7 +26,7 @@ target_link_libraries(IRKdebug
         Qt::Svg
         Qt6::Network
         KDAB::kddockwidgets
-        qlementine
+        # qlementine
 )
 
 add_compile_options(-Wno-padded)
